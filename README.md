@@ -38,3 +38,8 @@ The time is here to see who taps fastest among all your friends and family throu
 ➤Stats of Total Clicks(Taps) in the end.
 ➤Results to see who won and lost the tap challenge by how many clicks(taps).
 ➤Play again the multi player battle to show CPU who is the boss.
+
+![alt text](https://lh3.googleusercontent.com/kT1JD3yUxDRA9yzNhGvomW-VybfehosZlL8932Eui_KWgdn7uHd2K7OTIuCMQYyikkM=w720-h310-rw)
+![alt text](https://lh3.googleusercontent.com/vbKQQ9yw4D23KYAQWr6Dojif_YQGZdZRecI1GZStu0H0NMc0ZeigAh_y-TSM6C_ZR3s=w720-h310-rw)
+![alt text](https://lh3.googleusercontent.com/3wFNQc94St-wscnStKoDl2fPsIAuV3apuIfUzcZ3UBa7G6ufSrDGvLxO9jhAEOM0E94V=w720-h310-rw)
+![alt text](https://lh3.googleusercontent.com/FSVT_-ikTRSexSLsX5rOUKCTUSUxiCFas0R8BcBtbjzQ7Yv5SmksEY0iqsIFO75JcOU=w720-h310-rw)
