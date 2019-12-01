@@ -15,9 +15,9 @@ class StartActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        MobileAds.initialize(this, "ca-app-pub-5759603394484097~6831065374")
+        MobileAds.initialize(this, "admob key")
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-5759603394484097/8607181471"
+        mInterstitialAd.adUnitId = "admob ad key"
 
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
@@ -34,9 +34,9 @@ class StartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_start)
 
 
-        MobileAds.initialize(this, "ca-app-pub-5759603394484097~6831065374")
+        MobileAds.initialize(this, "admob key")
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-5759603394484097/8607181471"
+        mInterstitialAd.adUnitId = "admob ad key"
 
         btn_two_players.setOnClickListener {
             if(mInterstitialAd.isLoaded){
