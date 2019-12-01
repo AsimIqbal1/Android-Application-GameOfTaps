@@ -93,9 +93,9 @@ class VsCPU : AppCompatActivity(), RewardedVideoAdListener {
 
     override fun onStart() {
         super.onStart()
-        MobileAds.initialize(this, "ca-app-pub-5759603394484097~6831065374")
+        MobileAds.initialize(this, "admob key")
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-5759603394484097/8607181471"
+        mInterstitialAd.adUnitId = "admob ad key"
 
         mInterstitialAd.loadAd(AdRequest.Builder().build())
     }
@@ -107,11 +107,11 @@ class VsCPU : AppCompatActivity(), RewardedVideoAdListener {
         setContentView(R.layout.activity_vs_cpu)
 
 
-        MobileAds.initialize(this, "ca-app-pub-5759603394484097~6831065374")
+        MobileAds.initialize(this, "admob key")
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-5759603394484097/8607181471"
+        mInterstitialAd.adUnitId = "admob ad key"
 
-        MobileAds.initialize(applicationContext, "ca-app-pub-5759603394484097~6831065374")
+        MobileAds.initialize(applicationContext, "admob ad key")
 
         // Use an activity context to get the rewarded video instance.
         mRewardedVideoAd = MobileAds.getRewardedVideoAdInstance(this)
@@ -456,7 +456,7 @@ class VsCPU : AppCompatActivity(), RewardedVideoAdListener {
     }
 
     private fun loadRewardedVideo(){
-        mRewardedVideoAd.loadAd("ca-app-pub-5759603394484097/2396996349",
+        mRewardedVideoAd.loadAd("admob rewardedvideo ad key",
                 AdRequest.Builder().build())
     }
 
